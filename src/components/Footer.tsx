@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import hosted_by_the_ocf from "../assets/hosted-by-the-ocf.png";
 
 export default function Footer() {
   return (
@@ -27,6 +28,7 @@ export default function Footer() {
       >
         About Us
       </Link>
+      <img src={hosted_by_the_ocf} alt="OCF" className="w-[80px]" />
     </footer>
   );
 }
