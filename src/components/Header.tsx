@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import logo from "../../public/logo.svg";
 
 function Header() {
   return (
@@ -6,7 +7,7 @@ function Header() {
       <Link to="/">
         <img
           id="logo"
-          src="/logo.svg"
+          src={logo}
           className="w-10 md:w-16 transition-transform duration-300 ease-out hover:scale-105 hover:-translate-y-1"
           alt="Logo"
         />
